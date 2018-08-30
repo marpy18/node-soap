@@ -10,7 +10,7 @@
     "bluebird": "^3.5.0",
     "concat-stream": "^1.5.1",
     "debug": "^2.6.9",
-    "ejs": "~2.5.5",
+    "ejs": "~2.5.8",
     "finalhandler": "^1.0.3",
     "lodash": "^4.17.5",
     "httpntlm": "^1.5.2",
