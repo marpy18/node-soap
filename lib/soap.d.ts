@@ -303,12 +303,6 @@ export class WSSecurity implements ISecurity {
     toXML(): string;
 }
 
-export class WSSecurityCert implements ISecurity {
-    constructor(privatePEM: any, publicP12PEM: any, password: any, options?: any);
-    addOptions(options: any): void;
-    toXML(): string;
-}
-
 export class ClientSSLSecurity implements ISecurity {
     constructor(key: string | Buffer, cert: string | Buffer, ca?: string | any[] | Buffer, defaults?: any);
     constructor(key: string | Buffer, cert: string | Buffer, defaults?: any);
